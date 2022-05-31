@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: ghostwhite;
+    position: relative;
+}
+
+/* Text 404 not found */
+
+.notFound__container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+}
+
+.notFound__text {
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+}   
+
+/* Main grid */
+
+.main__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    height: 80%;
+    margin: 0 auto;
+    width: 95vw;
+}
+
+.main__img {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main__img img {
+    width: 85%;
+}
+
+.main__content {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main__content h1{
+    color: #333333;
+    font-family: 'Space Mono', monospace;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.main__content p{
+    color: #4F4F4F;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main__content button{
+    background-color: #333333;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    height: 68px;
+    width: 216px;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer__container {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.footer__text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #BDBDBD;
+    text-align: center;
+}
+
+.footer__text a {
+    color: #BDBDBD;
+}
